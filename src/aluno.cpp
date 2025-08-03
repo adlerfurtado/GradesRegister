@@ -9,7 +9,7 @@ Aluno::Aluno(std::string nome, int d1, int d2, int d3, int d4, int d5, int frequ
 
 //Métodos
 void Aluno::calculaMedia() {
-    media = (d1 + d2 + d3 + d4 + d5) / 5.0f;
+    media = (0.2 *(d1 + d2 + d3 + d4 + d5)) / 5.0f;
 }
 
 // Getters

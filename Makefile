@@ -8,8 +8,8 @@ INC_DIR = include
 EXEC = servidor.out
 
 # Fontes
-SRCS = $(SRC_DIR)/aluno.cpp $(SRC_DIR)/main.cpp
-HDRS = $(INC_DIR)/aluno.hpp $(INC_DIR)httplib.h
+SRCS = $(SRC_DIR)/aluno.cpp $(SRC_DIR)/rotas.cpp $(SRC_DIR)/main.cpp
+HDRS = $(INC_DIR)/aluno.hpp $(INC_DIR)/rotas.hpp $(INC_DIR)httplib.h
 
 # Regras
 all: build
