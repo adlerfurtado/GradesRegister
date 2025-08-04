@@ -21,11 +21,13 @@ Lista de Premissas Assumidas
 Decisões de Projeto
 - A linguagem escolhida foi C++ devido à minha maior familiaridade com a mesma.
 - Utilizei da biblioteca cpp-httplib para realizar as requisições HTTP locais, pois acreditei ser a mais simples para realizar as mesmas, devido ao pouco tempo de realização do programa.}
-- O projeto possui uma estrutura modular pois acredito ser indispensável em qualquer código, visto que melhora a visibilidade e organização do mesmo:
-  -> aluno.hpp / aluno.cpp: definem e implementam a classe Aluno, com seus atributos e métodos necessários.
-  -> main.cpp: concentra a lógica do servidor, controle de requisições e integração com o frontend.
-- Interface desenvolvida em HTML com auxilio da biblioteca JSON para requisições e comunicação com o backend.
-- Utilização do formato JSON para troca de dados entre frontend e backend foi escolhida devido minha maior familiaridae com esse formato, visto que já tive muito contato com banco de dados NOSQL (como o MongoDB) que também utilizam desse formato.
+- O projeto possui uma estrutura modular pois acredito ser indispensável em qualquer código, visto que melhora a visibilidade e organização do mesmo, tanto backend quanto frontend foram devidamente modularizados.
+- Interface desenvolvida em HTML com auxilio da biblioteca JSON para requisições e comunicação com o backend e CSS para estilização.
+- Utilização do formato JSON para troca de dados entre frontend e backend foi escolhida devido minha maior familiarida, visto que já tive muito contato com banco de dados NOSQL (como o MongoDB) que também utilizam desse formato.
 - Tentei ser o mais claro possível na separação entre backend e frontend, concentrando toda a lógica no back e interações no front.
 - O projeto foi desenvolvido visando facilidade de leitura e manutenção, com estrutura simples e direta, ideal para aprendizado de quem possuiu pouco contato com tecnologias de frontend.
-- Execução e testes foram feitos exclusivamente em ambiente Linux (Ubuntu via WSL).
+
+Desenvolvido e testado inteiramente em Ubuntu (via WSL) e VSCode com Live Server (para visualizar frontend localmente)
+
+<img width="1439" height="728" alt="image" src="https://github.com/user-attachments/assets/692b1c0d-f060-409f-a45b-682c17a84a2a" />
+
