@@ -5,6 +5,108 @@
     <title>Grades Register</title>
     <meta name="description" content="A simple application built in C++, using a local HTTP server, that allows users to register, update, and view student information including grades and attendance through a web interface.">
     <meta name="author" content="Adler Furtado">
+
+    <style>
+        @font-face {
+            font-family: 'PixelOperator';
+            src: url('../assets/PixelOperator.ttf') format('truetype');
+        } 
+        
+        * {
+            font-family: "PixelOperator", sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+    html, body {
+       height: 100%;
+    }
+
+    body {
+        background-image: url('/assets/background.jpg');
+        background-size: cover;      /* para cobrir a tela toda */
+        background-position: center; /* centraliza a imagem */
+        background-attachment: fixed;
+    }
+
+    header {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+        color: #2c3e50;
+        margin-bottom: 10px;
+    }
+
+    header p {
+        font-size: 1.1em;
+        color: #7f8c8d;
+    }
+
+    main {
+        max-width: 600px;
+        background-color: white;
+        padding: 30px;
+        border-radius: 12px;
+        margin: 0 auto;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    section {
+        margin-bottom: 15px;
+    }
+
+    h3, h4, h5 {
+        color: #34495e;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        margin-bottom: 10px;
+        font-size: 1em;
+    }
+
+    button {
+        background-color: #2c3e50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-right: 15px;
+        font-size: 0.95em;
+        transition: background-color 0.3s;
+        margin-top: 10px;
+        
+    }
+
+    button:hover {
+        background-color: #b7a1d9;
+    }
+
+    #resultado {
+        margin-top: 30px;
+        padding: 15px;
+        background-color: #ecf0f1;
+        border-radius: 8px;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 6px;
+    }
+</style>
+
 </head>
 
 <body>
