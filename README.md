@@ -1,5 +1,5 @@
 # GradesRegister
-Uma simples aplicação desenvolvida em C++, usando um servidor HTTP local, que permite aos usuários registrar e visualizar informações dos alunos, incluindo notas e frequência, por meio de uma interface web ou terminais de API.
+Uma simples aplicação desenvolvida em C++ e HTML/CSS, usando um servidor HTTP local, que permite aos usuários registrar e visualizar informações dos alunos, incluindo notas e frequência, por meio de uma interface web ou terminais de API.
 
 Instruções para execução:
 - Certifique-se de estar em um ambiente Linux (preferencialmente WSL com Ubuntu, como usado no desenvolvimento).
