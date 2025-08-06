@@ -10,7 +10,7 @@ Instruções para execução:
 
   -> O comando make compila o código-fonte em C++.
   -> O executável servidor.out inicia um servidor HTTP local.
-- Em seguida, abra o arquivo index.html no seu navegador. Ele irá direcioná-lo para uma interface onde a aplicação pode ser utilizada normalmente.
+- Em seguida, abra o link do servidor "http://localhost:8080" no seu navegador. Ele irá direcioná-lo para uma interface onde a aplicação pode ser utilizada normalmente.
 
 Lista de Premissas Assumidas
 - Cada aluno possui exatamente 5 notas em que variam de 0 à 10.
