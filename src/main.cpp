@@ -22,9 +22,12 @@ float calculaMediaTurma(const std::vector<Aluno>& alunos) {
 int main() {
     std::vector<Aluno> alunos;
     httplib::Server servidor;
-    servidor.set_mount_point("/assets", "./assets");
+    
+    servidor.set_mount_point("/", "./");            // index.html
+    servidor.set_mount_point("/css", "./css");      // style.css
+    servidor.set_mount_point("/js", "./js");        // script.js
 
-    // Chamando cada rota separadamente
+    // Rotas principais da aplicação
     rotaIndexHtml(servidor);
     rotaCadastrarAluno(servidor, alunos);
     rotaListarAlunos(servidor, alunos);
